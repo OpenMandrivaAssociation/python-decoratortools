@@ -4,7 +4,7 @@ Name:           python-decoratortools
 Version:        1.6
 Release:        %mkrel 1
 Summary:        Use class and function decorators -- even in Python 2.3
-Group:          Development/Languages
+Group:          Development/Python
 License:        Python or ZPLv2.1
 URL:            http://cheeseshop.python.org/pypi/DecoratorTools
 Source0:        http://cheeseshop.python.org/packages/source/D/DecoratorTools/%{oname}-%{version}.zip
