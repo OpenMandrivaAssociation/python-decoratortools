@@ -35,5 +35,5 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc README.txt
-%{py_platsitedir}/*
+%{py_puresitedir}/*
 
