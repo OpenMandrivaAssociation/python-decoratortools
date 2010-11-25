@@ -1,8 +1,8 @@
 %define oname DecoratorTools
 
 Name:           python-decoratortools
-Version:        1.7
-Release:        %mkrel 3
+Version:        1.8
+Release:        %mkrel 1
 Summary:        Use class and function decorators -- even in Python 2.3
 Group:          Development/Python
 License:        Python or ZPLv2.1
