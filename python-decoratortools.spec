@@ -2,7 +2,7 @@
 
 Name:           python-decoratortools
 Version:        1.8
-Release:        2
+Release:        3
 Summary:        Use class and function decorators -- even in Python 2.3
 Group:          Development/Python
 License:        Python or ZPLv2.1
