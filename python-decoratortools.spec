@@ -10,7 +10,7 @@ Url:		http://cheeseshop.python.org/pypi/DecoratorTools
 Source0:	http://cheeseshop.python.org/packages/source/D/DecoratorTools/%{oname}-%{version}.zip
 BuildArch:	noarch
 BuildRequires:	python-setuptools
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python2)
 
 %description
 Want to use decorators, but still need to support Python 2.3? Wish you could
@@ -22,12 +22,12 @@ Then you need "DecoratorTools".
 %setup -qn %{oname}-%{version}
 
 %build
-%{__python} setup.py build
+%{python2} setup.py build
 
 %install
-%{__python} setup.py install --skip-build --root %{buildroot}
+%{python2} setup.py install --skip-build --root %{buildroot}
  
 %files
 %doc README.txt
-%{py_puresitedir}/*
+%{py2_puresitedir}/*
 
