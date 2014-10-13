@@ -29,5 +29,5 @@ Then you need "DecoratorTools".
  
 %files
 %doc README.txt
-%{py2_puresitedir}/*
+%{py_puresitedir}/*
 
