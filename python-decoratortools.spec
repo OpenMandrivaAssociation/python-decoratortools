@@ -22,10 +22,10 @@ Then you need "DecoratorTools".
 %setup -qn %{oname}-%{version}
 
 %build
-%{python2} setup.py build
+python setup.py build
 
 %install
-%{python2} setup.py install --skip-build --root %{buildroot}
+python setup.py install --skip-build --root %{buildroot}
  
 %files
 %doc README.txt
