@@ -1,7 +1,7 @@
 %define oname DecoratorTools
 
 Summary:	Use class and function decorators -- even in Python 2.3
-Name:		python-decoratortools
+Name:		python2-decoratortools
 Version:	1.8
 Release:	8
 Group:		Development/Python
@@ -22,12 +22,11 @@ Then you need "DecoratorTools".
 %setup -qn %{oname}-%{version}
 
 %build
-python setup.py build
+%{__python2} setup.py build
 
 %install
-python setup.py install --skip-build --root %{buildroot}
+%{__python2} setup.py install --skip-build --root %{buildroot}
  
 %files
 %doc README.txt
-%{py_puresitedir}/*
-
+%{py2_puresitedir}/*
