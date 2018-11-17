@@ -9,7 +9,7 @@ License:	Python or ZPLv2.1
 Url:		http://cheeseshop.python.org/pypi/DecoratorTools
 Source0:	http://cheeseshop.python.org/packages/source/D/DecoratorTools/%{oname}-%{version}.zip
 BuildArch:	noarch
-BuildRequires:	python-setuptools
+BuildRequires:	python2-setuptools
 BuildRequires:	pkgconfig(python2)
 %rename		python-decoratortools
 
