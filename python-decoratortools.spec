@@ -6,7 +6,7 @@ Version:	1.8
 Release:	12
 Group:		Development/Python
 License:	Python or ZPLv2.1
-Url:		http://cheeseshop.python.org/pypi/DecoratorTools
+Url:		https://cheeseshop.python.org/pypi/DecoratorTools
 Source0:	http://cheeseshop.python.org/packages/source/D/DecoratorTools/%{oname}-%{version}.zip
 BuildArch:	noarch
 BuildRequires:	python2-setuptools
